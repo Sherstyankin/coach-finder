@@ -1,13 +1,13 @@
 package org.aston.servlet;
 
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-//@WebServlet("/customer-servlet")
+import java.io.*;
+
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.*;
+import jakarta.servlet.annotation.*;
+
+@WebServlet("/customer-servlet")
 public class CustomerServlet extends HttpServlet {
     @Override
     public void init(ServletConfig config) throws ServletException {

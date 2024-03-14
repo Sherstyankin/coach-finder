@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: org.aston.Main
-Class-Path: checker-qual-3.42.0.jar javax.servlet-api-4.0.1.jar lombok-1
- .18.30.jar postgresql-42.7.2.jar
-
